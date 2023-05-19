@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .App {
   text-align: center;
 }
@@ -21,7 +25,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
@@ -36,3 +40,27 @@
     transform: rotate(360deg);
   }
 }
+
+.main-nav{
+  text-align: right;
+  margin-bottom: 35px;
+  padding: 0 25px;
+}
+
+a {
+  color: navy;
+  text-decoration: none;
+  transition: all .25s ease;
+}
+
+a:hover {
+  color: #61dafb;
+  text-decoration: underline;
+}
+
+.main-nav a {
+  display: inline-block;
+  padding-left: 25px;
+  margin-bottom: 0;
+}
+
